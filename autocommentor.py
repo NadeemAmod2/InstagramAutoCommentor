@@ -3,7 +3,7 @@ from instapy import InstaPy
 from instapy import smart_run
 from instapy import set_workspace
 
-session = InstaPy(username='quarantinecurls', password='s8361423', headless_browser=True)
+session = InstaPy(username='xxxxxxx', password='xxxxxxx', headless_browser=True)
 
 with smart_run(session):
 	session.set_dont_include(["quarantinecurls"])	# ignore himself
